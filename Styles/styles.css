@@ -1,6 +1,12 @@
 * {
-    /* margin: 0; */
+    margin: 0;
     font-family: 'Work Sans';
+}
+
+header,
+main {
+    width: 1920px;
+    height: 1403px;
 }
 
 /* Header Container */
@@ -21,20 +27,23 @@
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    margin-left: 440px;
-    margin-bottom: 32px;
+    margin-left: 690px;
+    margin-bottom: 40px;
     text-align: center;
-    
-}
-.description2 {
 
+}
+
+.description2 {
+    width: 537px;
+    height: 78px;
     font-weight: 400;
     font-size: 16px;
     color: #727272;
     margin-bottom: 32px;
     text-align: justify;
-    
+
 }
+
 .btn-primary {
     height: 64px;
     background: hsl(25, 94%, 59%);
@@ -142,9 +151,25 @@ nav li {
 }
 
 /* Facts Styles */
-.facts-details{
+.facts-details {
     margin-left: 100px;
     margin-bottom: 130px;
+}
+.title-fact{
+    margin-left: 240px;
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.description-fact{
+    width: 537px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+    margin-left: 240px;
+
 }
 .fact-container {
     display: flex;
@@ -159,13 +184,26 @@ nav li {
     border-radius: 8px;
     padding-left: 60px;
 }
+
 .numbers {
     font-size: 45px;
     color: #424242;
 }
-/* Sponsor Style */
-.sponsor-info{
-   
-    margin-left: 150px;
 
+/* Sponsor Style */
+.sponsor-company{
+    display: flex;
+    gap: 155px;
+    margin-left: 240px;
+}
+.title-sponsor {
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.sponsor-name{
+    filter: grayscale(100%);
+    display: flex;
+    margin-bottom: 130px;
 }
