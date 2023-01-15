@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+/* Header Container */
+.header-container {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* Common */
+.title {
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+    text-align: justify;
+}
+
+.btn-primary {
+    height: 64px;
+    background: hsl(25, 94%, 59%);
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    margin-bottom: 50px;
+}
+
+/* Nav Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+/* Header Info */
+.header-container {
+    display: grid;
+}
+
+.header-all {
+    text-align: center;
+}
+
+.header-banner {
+    margin-bottom: 45px;
+}
+
+
+/* Features Styles */
+.features {
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 130px;
+}
+
+.feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.feature-details {
+    margin-left: 76px;
+}
+
+.first {
+    color: #727272;
+}
+
+.middle {
+    color: #131313;
+}
+
+.last {
+    color: #FF900E;
+}
+
+/* Second Fetures */
+.features-2 {
+    display: flex;
+    gap: 54px;
+    margin-bottom: 130px;
+}
+
+.feature1 {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-secondary {
+    height: 64px;
+    background: hsl(25, 94%, 59%);
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    width: 258px;
+    height: 109px;
+    border: 0;
+}
+
+/* Facts Styles */
+.fact-container {
+    display: flex;
+    gap: 50px;
+}
+.achivement {
+    margin-left: 100px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+}
+.numbers{
+    font-size: 45px;
+    color: #424242;
+
+}
