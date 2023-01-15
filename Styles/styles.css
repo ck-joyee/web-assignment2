@@ -237,16 +237,10 @@ nav li {
 }
 
 /* Mobile Responsive */
-/* Media Queries (Mobile) */
 @media only screen and (max-width:688px) {
     .header{
         width: 100%;
     }
-    .nav-title, {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    /* .player, .blog{
-        flex-direction: column;
-        align-items: center;
-    } */
+    
+    
 }
