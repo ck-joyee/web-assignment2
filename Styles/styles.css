@@ -7,45 +7,30 @@ header,
 main {
     width: 1920px;
     height: 1403px;
-
 }
-
-
-/* Header Container */
-.header-container {
-    background: rgba(255, 144, 14, 0.1);
-}
-
 /* Common */
 .title {
     font-weight: 500;
     font-size: 45px;
     margin-bottom: 24px;
 }
-
 .description {
     width: 542px;
     height: 52px;
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    margin-left: 690px;
-    margin-bottom: 40px;
+    margin-left: 33%;
+    margin-bottom: 15px;
     text-align: center;
 
 }
-
 .description2 {
-    width: 537px;
-    height: 78px;
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    margin-bottom: 32px;
-    text-align: justify;
 
 }
-
 .btn-primary {
     height: 64px;
     background: hsl(25, 94%, 59%);
@@ -55,9 +40,14 @@ main {
     font-size: 20px;
     border: 0;
     padding: 18px 35px;
-    margin-bottom: 50px;
+    margin: 20px;
 }
 
+
+/* Header Container */
+.header-container {
+    background: rgba(255, 144, 14, 0.1);
+}
 /* Nav Bar */
 nav {
     display: flex;
@@ -83,23 +73,26 @@ nav li {
 /* Header Info */
 .header-container {
     display: grid;
+    justify-content: center;
 }
 
-.header-all {
+.header-info {
     text-align: center;
+
 }
 
 .header-banner {
     margin-bottom: 45px;
+    width: 30%;
+    height: 40%;
 }
-
 
 /* Features Styles */
 .features {
     margin-top: 85px;
     display: flex;
     align-items: center;
-    margin-left: 300px;
+    margin-left: 100px;
     margin-bottom: 130px;
 }
 
@@ -139,7 +132,6 @@ nav li {
     padding: 10px;
     margin-bottom: 10px;
 }
-
 .btn-secondary {
     height: 64px;
     background: hsl(25, 94%, 59%);
@@ -150,10 +142,11 @@ nav li {
     width: 258px;
     height: 109px;
     border: 0;
+    margin-top: -40px;
 }
 
-/* Facts Styles */
-.facts-details {
+ /* Facts Styles  */
+ .facts-details {
     margin-left: 100px;
     margin-bottom: 130px;
 }
@@ -175,7 +168,6 @@ nav li {
     margin-left: 240px;
 
 }
-
 .fact-container {
     display: flex;
     gap: 50px;
@@ -183,13 +175,13 @@ nav li {
 }
 
 .achivement {
-    width: 241.83px;
-    height: 241.83px;
     border: 1px solid #FF900E;
     border-radius: 8px;
-    padding-left: 60px;
+    padding:5%;
 }
-
+.achivement, img{
+margin-left: 20px;
+}
 .numbers {
     font-size: 45px;
     color: #424242;
@@ -198,8 +190,9 @@ nav li {
 /* Sponsor Style */
 .sponsor-company {
     display: flex;
-    gap: 155px;
-    margin-left: 240px;
+    gap: 8%;
+    /* margin-left:5%; */
+    margin-top: 5%;
 }
 
 .title-sponsor {
@@ -221,11 +214,12 @@ nav li {
 }
 
 .copyright {
-    width: 1440px;
+    
+    margin-left: 200px;
+    margin-right: 200px;
     height: 100px;
     background: #FFF4E7;
     border-radius: 8px;
-    margin-left: 240px;
 
 }
 
@@ -234,13 +228,4 @@ nav li {
     text-align: center;
     color: #424242;
     padding: 50px;
-}
-
-/* Mobile Responsive */
-@media only screen and (max-width:688px) {
-    .header{
-        width: 100%;
-    }
-    
-    
 }
